@@ -25,6 +25,11 @@ text border, shadowed text and center aligned */
   border-radius: 1rem;
 }
 
+/* style for the first word of the paragraph */
+#start-txt {
+  color: brown;
+}
+
 /* heading with defined spacing */
 h1 {
   font-size: 3.5rem;
@@ -77,34 +82,39 @@ h3 {
   color: darkred;
 }
 
-/* List Styling */
-ul {
+/* Navigating list flex box */
+.nav-list-class {
   list-style: none;
-  padding: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  padding: 2rem;
+  gap: 2rem;
   flex-flow: row wrap;
 }
 
 /* Numbered list */
 ol {
   list-style-type: decimal;
-  color: chocolate;
+  color: darkslategrey;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
 }
 
 /* Make the links look like buttons for the unordered list*/
-.class-row {
+.row-item-class {
   border: 0.5px outset white;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  padding-bottom: 0.45rem;
-  padding-top: 0.45rem;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
 }
 
-/* The numbered list items do not look like buttons  */
-li {
-  padding-bottom: 0.3rem;
-  padding-top: 0.3rem;
+/* The numbered list flex box */
+.col-class {
+  list-style: decimal;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.9rem;
+  flex-flow: column wrap;
+  border: 0.5px transparent;
 }

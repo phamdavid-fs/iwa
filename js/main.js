@@ -1,2 +1,2 @@
 const mainHeading = document.querySelector("h1");
-mainHeading.textContent = "Hello World!";
+mainHeading.textContent = "Git Hub Set Up";
