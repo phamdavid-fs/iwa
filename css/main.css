@@ -1,0 +1,110 @@
+/*  general/common style  */
+* {
+  box-sizing: border-box;
+}
+
+/* page's background color */
+body {
+  background-color: rgb(255, 241, 221);
+}
+
+/* image style */
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+/* used for the page's title with colored background and 
+text border, shadowed text and center aligned */
+#page-title {
+  text-align: center;
+  text-shadow: 5px 5px 5px lightblue;
+  background-color: rgba(92, 45, 4, 0.116);
+  margin: auto;
+  border-radius: 1rem;
+}
+
+/* heading with defined spacing */
+h1 {
+  font-size: 3.5rem;
+  color: rgb(33, 33, 201);
+  width: 25%;
+  padding: 1.25rem;
+}
+
+/* page's border box */
+#wrapper {
+  width: 80%;
+  border: 3px solid darkolivegreen;
+  margin: auto;
+  padding: 1.1rem;
+}
+
+/*  general font  */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+/* link style */
+a {
+  color: darkcyan;
+  font-size: 1.35rem;
+}
+
+/* mouse-over a link */
+a:hover {
+  color: blue;
+}
+
+.society-class {
+  color: blueviolet;
+}
+
+/* other heading's font and font color */
+h2 {
+  font-size: 2rem;
+  color: darkgreen;
+}
+
+#plot {
+  color: cadetblue;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: darkred;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-flow: row wrap;
+}
+
+/* Numbered list */
+ol {
+  list-style-type: decimal;
+  color: chocolate;
+}
+
+/* Make the links look like buttons for the unordered list*/
+.class-row {
+  border: 0.5px outset white;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 0.45rem;
+  padding-top: 0.45rem;
+}
+
+/* The numbered list items do not look like buttons  */
+li {
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+}
